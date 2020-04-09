@@ -1,3 +1,3 @@
 # Letsnote App
 
-Make notes better and convenient
+an electron-vue project
