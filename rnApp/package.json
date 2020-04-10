@@ -1,0 +1,27 @@
+{
+  "name": "rnApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "start:macos": "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "0.60.0-microsoft.69",
+    "react-native-macos": "^0.60.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/runtime": "^7.3.1",
+    "@react-native-community/eslint-config": "^1.0.0",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

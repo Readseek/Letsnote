@@ -1,0 +1,187 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - Folly/Default (= 2018.10.22.00)
+    - glog
+  - Folly/Default (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - React (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+    - React-DevSupport (= 0.60.0-microsoft.67)
+    - React-RCTActionSheet (= 0.60.0-microsoft.67)
+    - React-RCTAnimation (= 0.60.0-microsoft.67)
+    - React-RCTBlob (= 0.60.0-microsoft.67)
+    - React-RCTImage (= 0.60.0-microsoft.67)
+    - React-RCTLinking (= 0.60.0-microsoft.67)
+    - React-RCTNetwork (= 0.60.0-microsoft.67)
+    - React-RCTSettings (= 0.60.0-microsoft.67)
+    - React-RCTText (= 0.60.0-microsoft.67)
+    - React-RCTVibration (= 0.60.0-microsoft.67)
+    - React-RCTWebSocket (= 0.60.0-microsoft.67)
+  - React-Core (0.60.0-microsoft.67):
+    - Folly (= 2018.10.22.00)
+    - React-cxxreact (= 0.60.0-microsoft.67)
+    - React-jsiexecutor (= 0.60.0-microsoft.67)
+    - yoga (= 0.60.0-microsoft.67.React)
+  - React-cxxreact (0.60.0-microsoft.67):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-jsinspector (= 0.60.0-microsoft.67)
+  - React-DevSupport (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+    - React-RCTWebSocket (= 0.60.0-microsoft.67)
+  - React-fishhook (0.60.0-microsoft.67)
+  - React-jsi (0.60.0-microsoft.67):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-jsi/Default (= 0.60.0-microsoft.67)
+  - React-jsi/Default (0.60.0-microsoft.67):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React-jsiexecutor (0.60.0-microsoft.67):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-cxxreact (= 0.60.0-microsoft.67)
+    - React-jsi (= 0.60.0-microsoft.67)
+  - React-jsinspector (0.60.0-microsoft.67)
+  - React-RCTActionSheet (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+  - React-RCTAnimation (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+  - React-RCTBlob (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+    - React-RCTNetwork (= 0.60.0-microsoft.67)
+    - React-RCTWebSocket (= 0.60.0-microsoft.67)
+  - React-RCTImage (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+    - React-RCTNetwork (= 0.60.0-microsoft.67)
+  - React-RCTLinking (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+  - React-RCTNetwork (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+  - React-RCTSettings (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+  - React-RCTText (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+  - React-RCTVibration (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+  - React-RCTWebSocket (0.60.0-microsoft.67):
+    - React-Core (= 0.60.0-microsoft.67)
+    - React-fishhook (= 0.60.0-microsoft.67)
+  - yoga (0.60.0-microsoft.67.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - React (from `../node_modules/react-native/`)
+  - React-Core (from `../node_modules/react-native/React`)
+  - React-cxxreact (from `../node_modules/react-native/ReactCommon/cxxreact`)
+  - React-DevSupport (from `../node_modules/react-native/React`)
+  - React-fishhook (from `../node_modules/react-native/Libraries/fishhook`)
+  - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
+  - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
+  - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
+  - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
+  - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
+  - React-RCTImage (from `../node_modules/react-native/Libraries/Image`)
+  - React-RCTLinking (from `../node_modules/react-native/Libraries/LinkingIOS`)
+  - React-RCTNetwork (from `../node_modules/react-native/Libraries/Network`)
+  - React-RCTSettings (from `../node_modules/react-native/Libraries/Settings`)
+  - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
+  - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
+  - React-RCTWebSocket (from `../node_modules/react-native/Libraries/WebSocket`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  trunk:
+    - boost-for-react-native
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native/"
+  React-Core:
+    :path: "../node_modules/react-native/React"
+  React-cxxreact:
+    :path: "../node_modules/react-native/ReactCommon/cxxreact"
+  React-DevSupport:
+    :path: "../node_modules/react-native/React"
+  React-fishhook:
+    :path: "../node_modules/react-native/Libraries/fishhook"
+  React-jsi:
+    :path: "../node_modules/react-native/ReactCommon/jsi"
+  React-jsiexecutor:
+    :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
+  React-jsinspector:
+    :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  React-RCTActionSheet:
+    :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
+  React-RCTAnimation:
+    :path: "../node_modules/react-native/Libraries/NativeAnimation"
+  React-RCTBlob:
+    :path: "../node_modules/react-native/Libraries/Blob"
+  React-RCTImage:
+    :path: "../node_modules/react-native/Libraries/Image"
+  React-RCTLinking:
+    :path: "../node_modules/react-native/Libraries/LinkingIOS"
+  React-RCTNetwork:
+    :path: "../node_modules/react-native/Libraries/Network"
+  React-RCTSettings:
+    :path: "../node_modules/react-native/Libraries/Settings"
+  React-RCTText:
+    :path: "../node_modules/react-native/Libraries/Text"
+  React-RCTVibration:
+    :path: "../node_modules/react-native/Libraries/Vibration"
+  React-RCTWebSocket:
+    :path: "../node_modules/react-native/Libraries/WebSocket"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: a1bc12a74baa397a2609e0f10e19b8062d864053
+  Folly: feff29ba9d0b7c2e4f793a94942831d6cc5bbad7
+  glog: b3f6d74f3e2d33396addc0ee724d2b2b79fc3e00
+  React: fbf5f56ab464ecf3a60b8996b7cd2151899f21b2
+  React-Core: 1df5083c6609c1eb575d40e157e15af29c5fb595
+  React-cxxreact: 2c976b880992d411f7ccf4543b422fd99675c4b2
+  React-DevSupport: 2b0272125acb6918fe110af96f111757a02d5ac2
+  React-fishhook: dfc018b63da9f948840699d4f2f55069dfb984c2
+  React-jsi: 7cb7445a6e1675c1835ffae80570434080fb3992
+  React-jsiexecutor: 81f6f407c464bb4fc676f892a074fc822dde43b7
+  React-jsinspector: efd8f6b5710e6acdba2b37c1bc35f86eb2a0b2f0
+  React-RCTActionSheet: cd82a403a7c8651ccdafd8d40af1315dcb75d574
+  React-RCTAnimation: bba9d2e7482a6e9f4de10cd41b1fdced92a68413
+  React-RCTBlob: b51576a60789edc35a80d64672f9022978caa03f
+  React-RCTImage: bc9b9e0d130df18b9f6dfb95da49041edf8c9d70
+  React-RCTLinking: 23332cd3e12f08ec6ae09597f963a1b9d08ae5e7
+  React-RCTNetwork: 0d17aff2be17706c96cfb6ae9c4cc23811f7f4a3
+  React-RCTSettings: a78d13995346cc09004922659bd96ece7805b323
+  React-RCTText: f8b8dd60633dd91340503ea5cae1f8a570ae38dc
+  React-RCTVibration: 96c3116adef66f50afaf97b9c4f15b89934b477c
+  React-RCTWebSocket: 61e9deeb1cc463054a313d88ef694ac93b1f2ddf
+  yoga: 09c0a7f6afb8f86a693986f3e2344077ddea939c
+
+PODFILE CHECKSUM: 88aa38af77600b6b04fdf655c9d7c4aed5f79572
+
+COCOAPODS: 1.9.1

@@ -1,3 +1,3 @@
 # Letsnote App
 
-an electron-vue project
+A React Native project
